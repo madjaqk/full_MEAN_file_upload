@@ -1,0 +1,19 @@
+{
+  "name": "file_upload",
+  "version": "0.0.1",
+  "description": "A simple project to show off file upload (specifically pictures) in Express.  Demonstrates this functionality by allowing people to upload pictures/info about their pet rats.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jack Brounstein",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-fileupload": "^0.1.4",
+    "mongoose": "^4.11.7"
+  }
+}

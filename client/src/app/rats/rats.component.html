@@ -1,0 +1,3 @@
+<h1>Rats!</h1>
+<app-rats-create (new_rat_event)="get_rats()"></app-rats-create>
+<app-rats-details *ngFor="let rat of rats.reverse()" [rat]="rat"></app-rats-details>

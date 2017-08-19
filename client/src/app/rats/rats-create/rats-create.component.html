@@ -1,0 +1,6 @@
+<form #form (submit)="create_rat($event)">
+	<p>Name: <input type="text" name="name" [(ngModel)]="new_rat.name"></p>
+	<p>Age: <input type="number" name="age" [(ngModel)]="new_rat.age"></p>
+	<p>Picture: <input #file type="file" name="picture" [(ngModel)]="rat_pic"></p>
+	<p><input type="submit" value="Submit"></p>
+</form>
